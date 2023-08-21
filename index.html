@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEDEX</title>
+    <link rel="icon" type="image/x-icon" href="imgs/pokemon-web-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins' >
+    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+</head>
+<body>
+        <div class="navbar">
+            <a href="index.html" class="navbar-title"><img class="navbar-title" src="imgs/pokedex-nav-title.png" alt="Pokemon Title"></a>
+        </div>
+
+        <div class="pokedex-container">
+            <div class="pokedex-content">
+
+                <select id="sortSelect" class="filsort sort-by">
+                    <option value="" disabled selected hidden>Sort by</option>
+                    <option value="id">ID ↑</option>
+                    <option value="id rev">ID ↓</option>
+                    <option value="name">Name ↑</option>
+                    <option value="name rev">Name ↓</option>
+                </select>
+
+                <input type="text" id="searchInput" placeholder="Search ID or Name here..." class="filsort pokemon-search">
+                
+                <div id="pokedex-table" class="pokedex-table"></div>
+
+                <div class="loadbtnDiv">
+                    <button id="load-more-btn">Load More</button>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
+
