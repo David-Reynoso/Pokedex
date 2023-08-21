@@ -232,7 +232,7 @@ fetch(mainApiUrl)
               <p class='pokemonType awd' style="font-weight: bold;">`+pokemoncardType+`</p>
             </div>
             <div class='pokemon-weakness'>
-              <p id='pokemon-type-title' style="margin-top:-10px; background-color: rgba(199, 5, 5, 0.8) !important; color: white !important; font-size: 16px">Weak Against</p>
+              <p id='pokemon-type-title' style="font-size: 14px !important; margin-top:-10px; background-color: rgba(199, 5, 5, 0.8) !important; color: white !important; font-size: 16px">Weak Against</p>
               <p class='pokemonWeak' style="font-size: 14px; color: white; margin-top:5px;">`+uniqueWeaknesses+`</p>
             </div>
           </div>
